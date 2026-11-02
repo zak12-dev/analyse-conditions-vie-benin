@@ -1,0 +1,119 @@
+﻿fichier,variable,type,valeurs_manquantes,pourcentage_manquant,nombre_modalites,definition,modalites,interpretation,utilite_analyse,source_document,statut_documentation
+menage,country,str,0,0.0,1,Pays,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,hhid,int64,0,0.0,8032,Identifiant du ménage,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,grappe,int64,0,0.0,670,Numéro de grappe (unité primaire de sondage),,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,menage,int64,0,0.0,631,Numéro du ménage dans la grappe,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,vague,int64,0,0.0,2,Vague de collecte,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,logem,int64,0,0.0,4,Statut d'occupation du logement,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,mur,int64,0,0.0,2,Mur en matériaux définitifs,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,toit,int64,0,0.0,2,Toit en matériaux définitifs,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,sol,int64,0,0.0,2,Sol en matériaux définitifs,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,eauboi_ss,int64,0,0.0,2,Eau potable en saison sèche,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,eauboi_sp,int64,0,0.0,2,Eau potable en saison des pluies,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,elec_ac,int64,0,0.0,2,Accès au réseau électrique,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,elec_ur,int64,0,0.0,2,Utilisation de l'électricité du réseau,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,elec_ua,int64,0,0.0,2,Utilisation de l'électricité solaire ou d'un groupe électrogène,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,ordure,int64,0,0.0,2,Déchets évacués sainement,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,toilet,int64,0,0.0,2,Toilettes saines,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,eva_toi,int64,0,0.0,2,Excréments évacués sainement,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,eva_eau,int64,0,0.0,2,Eaux usées évacuées sainement,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,year,int64,0,0.0,1,Année,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,tv,int64,0,0.0,2,Le ménage possède une télévision,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,fer,int64,0,0.0,2,Le ménage possède un fer électrique,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,frigo,int64,0,0.0,2,Le ménage possède un réfrigérateur ou congélateur,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,cuisin,int64,0,0.0,2,Le ménage possède une cuisinière électrique ou à gaz,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,ordin,int64,0,0.0,2,Le ménage possède un ordinateur,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,decod,int64,0,0.0,2,Le ménage possède un décodeur ou une antenne,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,car,int64,0,0.0,2,Le ménage possède une voiture,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,superf,float64,4345,54.1,3171,Superficie agricole,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,grosrum,int64,0,0.0,68,Nombre de gros ruminants,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,petitrum,int64,0,0.0,68,Nombre de petits ruminants,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,porc,int64,0,0.0,28,Nombre de porcs,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,lapin,int64,0,0.0,15,Nombre de lapins,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,volail,int64,0,0.0,105,Nombre de volailles,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,sh_id_demo,int64,0,0.0,2,Choc idiosyncratique démographique,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,sh_co_natu,int64,0,0.0,2,Choc covariant naturel,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,sh_co_eco,int64,0,0.0,2,Choc covariant économique,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,sh_id_eco,int64,0,0.0,2,Choc idiosyncratique économique,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,sh_co_vio,int64,0,0.0,2,Choc covariant lié à la violence,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+menage,sh_co_oth,int64,0,0.0,2,Autres chocs,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,country,str,0,0.0,1,Pays,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,year,int64,0,0.0,1,Année de l'enquête,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,vague,int64,0,0.0,2,Vague de collecte,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,hhid,int64,0,0.0,8032,Identifiant du ménage,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,grappe,int64,0,0.0,670,Numéro de grappe,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,menage,int64,0,0.0,631,Numéro du ménage,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,numind,int64,0,0.0,35,Numéro de l'individu,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,zae,int64,0,0.0,5,Zone agroécologique,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,zaemil,int64,0,0.0,9,Groupe zone agroécologique et milieu,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,departement,int64,0,0.0,12,Département de résidence,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,commune,int64,0,0.0,77,,,,,,À documenter
+individu,arrondissement,int64,0,0.0,413,,,,,,À documenter
+individu,milieu,int64,0,0.0,2,Milieu de résidence,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,hhweight,float64,0,0.0,1007,Pondération du ménage,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,resid,int64,0,0.0,2,Statut de résident,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,sexe,int64,0,0.0,2,Genre,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,age,int64,0,0.0,103,Âge en années,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,lien,int64,0,0.0,11,Lien de parenté,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,mstat,float64,1,0.0,7,Situation matrimoniale,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,religion,int64,0,0.0,5,Religion,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,ethnie,float64,480,1.13,52,Ethnie,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,nation,int64,0,0.0,13,Nationalité,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,agemar,float64,26949,63.17,46,Âge au premier mariage,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,ea,int64,0,0.0,2,,,,,,À documenter
+individu,em,int64,0,0.0,8,,,,,,À documenter
+individu,ej,int64,0,0.0,31,,,,,,À documenter
+individu,mal30j,int64,0,0.0,2,Problème de santé au cours des 30 derniers jours,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,aff30j,float64,22029,51.64,17,Problème de santé,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,arrmal,int64,0,0.0,2,Arrêt d'activité pour cause de maladie,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,durarr,float64,30499,71.49,3,Durée de l'arrêt d'activité pour cause de maladie,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,con30j,float64,22029,51.64,2,Consultation au cours des 30 derniers jours,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,hos12m,int64,0,0.0,2,Hospitalisation au cours des 12 derniers mois,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,couvmal,int64,0,0.0,2,Couverture maladie de l'individu,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,moustiq,int64,0,0.0,2,A dormi sous une moustiquaire la nuit précédente,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,handit,float64,5774,13.53,2,"Handicap, tous niveaux",,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,handig,float64,5774,13.53,2,Handicap majeur seul,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,serviceconsult,float64,22029,51.64,5,Service de santé consulté,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,persconsult,float64,22029,51.64,4,Personnel de santé consulté,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,alfa,int64,0,0.0,2,Alphabétisation : lire et écrire,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,alfa2,int64,0,0.0,2,"Alphabétisation : lire, écrire et comprendre",,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,scol,int64,0,0.0,2,Fréquentation scolaire en 2020-2021,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,educ_scol,float64,30131,70.63,8,Niveau éducatif actuel,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,educ_hi,int64,0,0.0,9,Niveau éducatif achevé,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,diplome,int64,0,0.0,11,Diplôme le plus élevé,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,telpor,int64,0,0.0,2,L'individu possède un téléphone portable,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,internet,int64,0,0.0,2,Accès de l'individu à Internet,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,activ7j,int64,0,0.0,6,Situation d'activité au cours des 7 derniers jours,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,activ12m,int64,0,0.0,4,Situation d'activité au cours des 12 derniers mois,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,branch,float64,21420,50.21,13,Branche d'activité,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,sectins,float64,21420,50.21,6,Secteur institutionnel de l'emploi principal,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,csp,float64,21420,50.21,10,Catégorie socioprofessionnelle de l'emploi principal,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,volhor,float64,28299,66.34,784,Volume horaire annuel de travail de l'emploi principal,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,salaire,float64,40446,94.81,889,Salaire annuel de l'emploi principal,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,emploi_sec,int64,0,0.0,2,Possède un emploi secondaire au cours des 12 derniers mois,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,sectins_sec,float64,39880,93.48,5,Secteur institutionnel de l'emploi secondaire,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,csp_sec,float64,39880,93.48,10,Catégorie socioprofessionnelle de l'emploi secondaire,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,volhor_sec,float64,39880,93.48,234,Volume horaire annuel de travail de l'emploi secondaire,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,salaire_sec,float64,42429,99.46,100,Salaire annuel de l'emploi secondaire,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+individu,bank,int64,0,0.0,2,Possède un compte bancaire ou un autre compte,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+consommation,country,str,0,0.0,1,,,,,,À documenter
+consommation,year,int64,0,0.0,1,,,,,,À documenter
+consommation,hhid,int64,0,0.0,8032,,,,,,À documenter
+consommation,vague,int64,0,0.0,2,,,,,,À documenter
+consommation,grappe,int64,0,0.0,670,Unité primaire de sondage,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+consommation,menage,int64,0,0.0,631,Numéro du ménage dans la grappe,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+consommation,deartement,int64,0,0.0,12,,,,,,À documenter
+consommation,milieu,int64,0,0.0,2,,,,,,À documenter
+consommation,hhweight,float64,0,0.0,1007,,,,,,À documenter
+consommation,codpr,int64,0,0.0,413,Code du produit faisant l'objet de la collecte,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+consommation,inclus,int64,0,0.0,2,,,,,,À documenter
+consommation,coicop,int64,0,0.0,15,,,,,,À documenter
+consommation,modep,int64,0,0.0,5,Mode d'acquisition du produit,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+consommation,depan,float64,0,0.0,29336,Dépense annuelle,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+ponderations,grappe,int64,0,0.0,670,Unité primaire de sondage,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+ponderations,menage,int64,0,0.0,631,Numéro du ménage dans la grappe,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+ponderations,vague,int64,0,0.0,2,,,,,,À documenter
+ponderations,s00q01,int64,0,0.0,12,Département du ménage,,,,,Définition documentée
+ponderations,s00q04,int64,0,0.0,2,Milieu de résidence du ménage,,,,,Définition documentée
+ponderations,poids,float64,0,0.0,1007,Poids statistique du ménage,,,,ben_ehcvm2_information_de_base.pdf,Définition documentée
+ponderations,strat,int64,0,0.0,24,Identifiant de la strate d'échantillonnage,,,,,Définition générale documentée

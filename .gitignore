@@ -1,0 +1,16 @@
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données brutes et données individuelles
+data/raw/
+data/processed/base_analyse_menages.csv
+
+# Fichiers temporaires
+*.log
+.DS_Store
